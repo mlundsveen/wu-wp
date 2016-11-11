@@ -1,0 +1,35 @@
+/*
+Theme Name:   Hest 2016
+Theme URI:    http://example.com/hest/
+Description:  Thema for WU timen
+Author:       ITF10511
+Author URI:   http://hiof.no
+Template:     twentysixteen
+Version:      1.0.0
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  hest
+*/
+
+@import url("../twentysixteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.site-inner {
+  width: 100%;
+  max-width: 100%; 
+}
+
+p a {
+  color: pink !important;
+}
+
+#damn {
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+}
+main#main {
+    width: 60%;
+    float: left;
+}
